@@ -1,0 +1,12 @@
+E:\WCFEmpServiceLib\WCFEmpServiceLib\bin\Debug\WCFEmpServiceLib.dll.config
+E:\WCFEmpServiceLib\WCFEmpServiceLib\bin\Debug\WCFEmpServiceLib.dll
+E:\WCFEmpServiceLib\WCFEmpServiceLib\bin\Debug\WCFEmpServiceLib.pdb
+E:\WCFEmpServiceLib\WCFEmpServiceLib\obj\Debug\WCFEmpServiceLib.csprojAssemblyReference.cache
+E:\WCFEmpServiceLib\WCFEmpServiceLib\obj\Debug\WCFEmpServiceLib.csproj.CoreCompileInputs.cache
+E:\WCFEmpServiceLib\WCFEmpServiceLib\obj\Debug\WCFEmpServiceLib.dll
+E:\WCFEmpServiceLib\WCFEmpServiceLib\obj\Debug\WCFEmpServiceLib.pdb
+E:\WCFEmpServiceLib\WCFEmpServiceLib\bin\Debug\ADOEmpLib.dll
+E:\WCFEmpServiceLib\WCFEmpServiceLib\bin\Debug\EntitiesLayer.dll
+E:\WCFEmpServiceLib\WCFEmpServiceLib\bin\Debug\ADOEmpLib.pdb
+E:\WCFEmpServiceLib\WCFEmpServiceLib\bin\Debug\EntitiesLayer.pdb
+E:\WCFEmpServiceLib\WCFEmpServiceLib\obj\Debug\WCFEmpServiceLib.csproj.CopyComplete

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d3843088-969a-4ac6-913f-37d6d0ccb985" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/WCFEmpServiceLib/Service1/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="838487f3-d665-4406-89e5-d09c20a38bae" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFEmpServiceLib/Service1/?disco" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="3186d0b3-4792-44e6-b5d9-ed226b09835a" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFEmpServiceLib/Service1/?xsd=xsd1" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="7cb7d6eb-a1e0-44e2-8c32-3e5d4e722986" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFEmpServiceLib/Service1/?xsd=xsd0" />
+    <MetadataFile FileName="EmpService.wsdl" MetadataType="Wsdl" ID="633e78d2-9a82-4770-a63e-606417b3c451" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFEmpServiceLib/Service1/?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

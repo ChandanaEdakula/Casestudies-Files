@@ -1,0 +1,63 @@
+﻿@model IEnumerable<ProductDataAccessLayerLib.tbl_product>
+
+@{
+    ViewBag.Title = "ViewCategory";
+}
+
+<h2>ViewCategory</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.pid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pdescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tbl_category.cname)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.pid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pdescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.price)
+        </td>
+        <td>
+            <input type="submit" value="Show Category" />
+        </td>
+        @*<td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>*@
+    </tr>
+}
+
+</table>

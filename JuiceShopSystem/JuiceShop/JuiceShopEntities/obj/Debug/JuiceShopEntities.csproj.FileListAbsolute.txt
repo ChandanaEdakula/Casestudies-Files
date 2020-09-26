@@ -1,0 +1,6 @@
+C:\Users\echandana\OneDrive - DXC Production\Documents\JuiceShopSystem\JuiceShop\JuiceShopEntities\bin\Debug\JuiceShopEntities.dll
+C:\Users\echandana\OneDrive - DXC Production\Documents\JuiceShopSystem\JuiceShop\JuiceShopEntities\bin\Debug\JuiceShopEntities.pdb
+C:\Users\echandana\OneDrive - DXC Production\Documents\JuiceShopSystem\JuiceShop\JuiceShopEntities\obj\Debug\JuiceShopEntities.csprojAssemblyReference.cache
+C:\Users\echandana\OneDrive - DXC Production\Documents\JuiceShopSystem\JuiceShop\JuiceShopEntities\obj\Debug\JuiceShopEntities.csproj.CoreCompileInputs.cache
+C:\Users\echandana\OneDrive - DXC Production\Documents\JuiceShopSystem\JuiceShop\JuiceShopEntities\obj\Debug\JuiceShopEntities.dll
+C:\Users\echandana\OneDrive - DXC Production\Documents\JuiceShopSystem\JuiceShop\JuiceShopEntities\obj\Debug\JuiceShopEntities.pdb

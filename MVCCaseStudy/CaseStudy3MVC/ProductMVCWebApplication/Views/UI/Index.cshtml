@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    var cid = (SelectList)ViewData["cid"];
+
+}
+
+
+
+@using (Html.BeginForm())
+{
+    <br />
+    <br />
+    <table border="1">
+        @*<tr style="background-color:lawngreen">
+            <th colspan="2"> *Slect Category:@Html.DropDownList("cid",new SelectList(ViewBag.Data,"cname"))
+                                             <select name="id">
+                                                 @foreach(var item in cname)
+                                                 {
+                                                     <option value="@item">@item</option>
+                                                 }
+                                              </select></th>
+            @Html.DropDownListFor(o=>o.tcid,cid)
+            <td>Select Category:</td>*@
+                
+        </tr>
+        <tr>
+            <td>
+                Enter Product Name:
+            </td>
+            <td>
+                @Html.TextBox("Pname")
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Enter Product Description:
+            </td>
+            <td>
+                @Html.TextBox("Pdescription")
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Enter Price:
+            </td>
+            <td>
+                @Html.TextBox("Price")
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Add Product" />
+            </td>
+            <td>
+                @ViewData["msg"]
+            </td>
+        </tr>
+
+    </table>
+    @Html.ActionLink("View Products", "ViewCategory")
+
+}
